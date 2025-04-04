@@ -1,0 +1,26 @@
+.linkButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.linkButton:hover {
+  background-color: #0056b3;
+}
+.linkButton:active {
+  background-color: #004085;
+}
+.linkButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+.linkButton:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+.linkButton:disabled:hover {
+  background-color: #6c757d;
+}
