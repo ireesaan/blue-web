@@ -5,7 +5,7 @@ import styles from "./second.module.css";
 export default function Second() {
   return (
     <div className={styles.container}>
-      <Title title="Segunda Página" />
+      <Title title="Second Page" />
     </div>
   );
 }
